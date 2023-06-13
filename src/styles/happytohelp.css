@@ -1,0 +1,144 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-happy {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy-Bold', sans-serif;
+    height: 80%;
+    width: 90%;
+    background: #4A2A51;
+    margin: auto;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.mainphotu {
+    height: 430px;
+    width: 430px;
+}
+
+.text21 {
+    color: white;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 645px;
+}
+
+.txt-happy21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.photu21 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.txt-happy21 h5 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.txt-happy21 p {
+    font-size: 20px;
+
+    font-family: 'Gilroy-Regular', sans-serif;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.btn21{
+    margin-top: 50px;
+    height: 45px;
+    width: 290px;
+    border-radius: 20px;
+    background-color: black;
+    color:  #FA8F14;
+    box-shadow: 0px 16px 16px -11px #fa8f14;
+font-weight: 600;
+}
+
+.btn21:hover{
+    background-color: #FA8F14;
+    box-shadow: 0px 16px 16px -11px black;
+border: none;
+color: black;
+cursor: pointer;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width:1164px) {
+
+    .container-happy{
+        height: 80%;
+        width: 90%;
+    }
+    
+    
+    }
+    @media only screen and (max-width: 800px) {
+
+        .container-happy{
+            height: 50vh;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+@media only screen and (max-width: 600px) {
+
+  
+    
+.txt-happy21 h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.txt-happy21 p {
+    font-size: 17px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    margin-top: 15px;
+}
+    
+    .btn21{
+        margin-top: 31px;
+        width: 215px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1164px) {
+    .mainphotu {
+        height: 354px;
+        width: 355px;
+    }
+/* 
+.container-happy{
+    height: 645px;
+} */
+
+}
+@media only screen and (max-width: 800px) {
+    .mainphotu{
+        display: none;
+    }
+}

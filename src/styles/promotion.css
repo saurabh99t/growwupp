@@ -1,0 +1,216 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container21 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy-Bold', sans-serif;
+    height: 80%;
+    width: 75%;
+    background: #4A2A51;
+    margin: auto;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.text21 {
+    color: white;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    padding: 1%;
+    height: 100%;
+}
+.photu-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.photu21 {
+    margin-left: 4%;
+}
+.mainphotu21 {
+    height: 360px;
+    width: 180px;
+    /* margin-left: 265px; */
+}
+.mainphotu22 {
+  height: 311px;
+    width: 150px;
+    /* margin-right: 118px; */ 
+}
+
+.txt21{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+}
+.text22{
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 5% */
+}
+.text23{
+
+  margin-bottom: 5px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-top: -10; */
+}
+.bhumi1{
+  height: 120px;
+  margin-top: -15%;
+}
+.bhumi2{
+  margin-top: -20px;
+  margin-right: 50px;
+  height: 100px;
+}
+.bhumi3{
+  margin-top: -20px;
+  margin-right: 50px;
+  width: 156px;
+  height: 100px;
+}
+
+
+.txt21 h5 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.txt21 p {
+    font-size: 20px;
+
+    font-family: 'Gilroy-Regular', sans-serif;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.btn21{
+    margin-top: 50px;
+    height: 45px;
+    width: 290px;
+    border-radius: 20px;
+    background-color: black;
+    color:  #FA8F14;
+    box-shadow: 0px 16px 16px -11px #fa8f14;
+font-weight: 600;
+}
+
+.btn21:hover{
+    background-color: #FA8F14;
+    box-shadow: 0px 16px 16px -11px black;
+border: none;
+color: black;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .photu-right{
+        display: none;
+    }
+    .text21{
+        margin-top: 3%;
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    .container21{
+        height: 65vh;
+        width: 82%;
+        align-items: flex-start;
+    }
+
+    .mainphotu21 {
+        height: 231px;
+        width: 125px;
+    }
+
+    .txt21 h5{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .txt21 p{
+        font-size: 17px;
+        margin: 23px;
+    }
+    
+    .btn21{
+        margin-top: 31px;
+        width: 215px;
+    }
+    .text22{
+        margin-top: 0;
+    }
+    .text23 {
+         margin-left: 1%;
+         margin-bottom: 0;
+}
+.text23 p{
+    margin: 3%;
+}
+.bhumi1 {
+    height: 84px;
+}
+.bhumi3{
+    margin-right: 2px;
+}
+}
+
+
+@media only screen and (min-width: 800px) and (max-width:1164px) {
+
+.text22{
+    margin-left: 1%;
+    width: 100%;
+}
+.container21{
+    height: 80%;
+    width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 1000px){
+    .mainphotu22{
+    display: none; 
+}
+.text21 {
+    width: 70%;
+}
+.photu-right{
+    width: 30%;
+}
+}
+@media only screen and (max-width: 450px) {
+    .container21 {
+        width: 90%;
+    }
+}

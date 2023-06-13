@@ -1,0 +1,142 @@
+.container100{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 200px;
+  height: 41vh;
+  color:  #FFFFFF;
+  background: #4A2A51;
+
+
+}
+
+.maxdiv100{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 32px;
+}
+
+.logo100{
+  height: 65px ;
+  width: 65px;
+  margin-left: 50px;
+ 
+
+}
+
+.heading100{
+font-family: 'Lemon/Milk', sans-serif;
+color: white !important;
+font-size: 20px;
+}
+
+.bigHead100{
+  /* font-weight: 800; */
+  font-size: 35px;
+  font-family: 'Lemon/Milk', sans-serif;
+}
+
+
+.smallHead100{
+  /* font-weight: 800; */
+  font-size: 22px;
+  margin: 24px 0px;
+  font-family: 'Lemon/Milk light', sans-serif;
+}
+
+.box100{
+  margin: 47px 17px;
+  height: 150px;
+}
+
+.mindiv100 p {
+  font-size: 20px;
+  margin-top: 11px;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  
+}
+
+.mindiv100{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 0px 47px;
+  padding: 0px 16px;
+  width: 391px;
+}
+.vl {
+  border-left: 2px solid #FFFFFF;
+  height: 132px;
+  margin: auto;
+  
+}
+  .box100 .para100{
+  font-size: 15px;
+  margin: -15px 0px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+ 
+  .container100{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .maxdiv100{
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px;
+      padding: 0px 8px;
+      
+  }
+  .mindiv100 {
+      margin: 0px 0px;
+      display: flex;
+      padding: 22px 32px;
+      justify-content: center;
+      align-items: center;
+  }
+  .vl{
+      display: none;
+  }
+  .box100{
+    
+      margin: 5% 50px;
+      height: 150px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+ 
+  .maxdiv100{
+      display: flex;
+      flex-direction: column;
+  }
+  .container100{
+      height: 100vh;
+  }
+}
+
+.bannerApp{
+  display: none;
+}
+
+@media only screen  and (max-width: 600px){
+  .bannerApp{
+    display: block;
+    width: 100%;
+    margin-bottom: -4px;
+  }
+
+  .banner2{
+    display: none;
+  }
+}
